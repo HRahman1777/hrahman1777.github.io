@@ -1,0 +1,202 @@
+body {
+  /*font-family: "Chakra Petch", sans-serif;*/
+  font-family: "Ubuntu", sans-serif;
+  background-color: lightblue;
+}
+
+hr {
+  color: black;
+  border-radius: 10px;
+  padding: 3px;
+}
+
+.cnavbar {
+  background-color: #f2f5f7ad;
+  width: 100%;
+  border-radius: 10px;
+}
+.navdiv {
+  position: fixed;
+  top: 0;
+}
+.abtn-intro {
+  margin-right: 15px;
+}
+
+#caro {
+  background-color: whitesmoke;
+}
+.pidiv {
+  height: 45rem;
+  background-image: url(/img/bg07.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.picard {
+  margin-top: 5rem;
+  height: 7rem;
+  width: 100%;
+  border-radius: 1rem;
+  background-color: rgba(240, 248, 255, 0.384);
+}
+
+.fdiv {
+  /*
+  background-image: url(/img/bg01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  */
+  background-color: azure;
+  height: 40rem;
+  /*margin-bottom: 200px;
+  margin-top: 150px;
+  */
+}
+
+.pdiv {
+  height: 30rem;
+  background-image: url(/img/bg03.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pcard {
+  padding: 3rem;
+  margin-bottom: 2rem;
+  background-color: rgba(173, 216, 230, 0.336);
+}
+.intro-pic {
+  border-radius: 10px;
+}
+.intro-div {
+  background-color: #f2f5f7;
+}
+a {
+  font-weight: bold;
+  color: black;
+  text-decoration-line: underline;
+}
+
+a:hover {
+  color: rgb(149, 245, 39);
+  text-decoration-line: underline;
+}
+a:visited {
+  text-decoration: none;
+}
+
+#education {
+  background-color: whitesmoke;
+  padding-bottom: 5rem;
+}
+#experience {
+  /*background-color: aliceblue;
+  */
+  background-image: url(/img/bg05.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#objective {
+  /*background-color: white;
+  */
+  background-image: url(/img/bg03.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#achivements {
+  /*background-color: white;
+    */
+  height: 40rem;
+  background-image: url(/img/bg04.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#skills {
+  /*background-color: white;
+    */
+  color: white;
+  height: 40rem;
+  background-image: url(/img/bg06.jpg);
+  /*
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.scard {
+  padding: 3rem;
+  margin-top: 1rem;
+  background-color: rgba(240, 248, 255, 0.233);
+  border-radius: 1rem;
+}
+
+.scard:hover {
+  background-color: rgba(240, 248, 255, 0.062);
+  border: white;
+}
+
+.achv-card {
+  padding: 3rem;
+  margin-top: 1rem;
+  background-color: rgba(75, 162, 243, 0.164);
+  border-radius: 1rem;
+}
+
+.ecard {
+  padding: 3rem;
+  margin-top: 5rem;
+
+  color: lightblue;
+  background-color: rgba(255, 255, 255, 0.24);
+}
+.ecard:hover {
+  border: white solid;
+  transition: 0.2s;
+  color: rgb(210, 244, 255);
+  background-color: rgba(255, 255, 255, 0.062);
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: rgb(109, 201, 230);
+  color: black;
+  transform: rotateY(180deg);
+}
