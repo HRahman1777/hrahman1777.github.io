@@ -52,7 +52,7 @@ a {
   align-items: flex-end;
   background-size: cover;
   background-position: center;
-  box-shadow: 0 0 5em -1em black;
+  box-shadow: 0 0 2em 1px black;
   transition: all, var(--transition-time);
   position: relative;
   overflow: hidden;
