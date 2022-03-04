@@ -21,25 +21,68 @@ body {
   background-color: whitesmoke;
 }
 .pidiv {
-  height: 45rem;
+  height: 100%;
   background-image: url(/img/bg07.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
+.pidiv3 {
+  height: 100%;
+  background-image: url(/img/bg03.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .picard {
+  padding: 15px;
   margin-top: 5rem;
-  height: 7rem;
+  height: 100%;
   width: 100%;
   border-radius: 1rem;
   background-color: rgba(240, 248, 255, 0.384);
 }
 
-.fdiv {
-  /*
+.fdiv2 {
+  color: white;
   background-image: url(/img/bg01.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  */
+  height: 100%;
+
+  background-color: azure;
+}
+.linkcol a {
+  color: #8dcdeb;
+}
+.concard {
+  background-color: rgba(80, 80, 228, 0.308);
+  width: 100%;
+  border-radius: 15px;
+}
+
+.fdiv1 {
+  color: white;
+  background-image: url(/img/bg05.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+
+  background-color: azure;
+}
+.fdiv1 a {
+  color: white;
+}
+
+.fdiv {
+  /*
+  background-image: url(/img/bg03.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+*/
   background-color: azure;
   /*margin-bottom: 200px;
   margin-top: 150px;
@@ -70,14 +113,6 @@ a:hover {
 }
 a:visited {
   text-decoration: none;
-}
-
-.contdiv {
-  background-color: #d4f0fd;
-  padding: 1rem;
-  border: 3px solid black;
-  border-radius: 15px;
-  box-shadow: 5px 5px;
 }
 
 #education {
