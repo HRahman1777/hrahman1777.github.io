@@ -1,977 +1,398 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!--// META TAGS //-->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>HasiburRahman</title>
-    <!--// ICONS //-->
-    <link rel="stylesheet" href="fonts/flat_icons/flaticon.css" />
-    <link rel="stylesheet" href="fonts/font_awesome/css/all.css" />
 
-    <!--// GOOGLE FONTS //-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Hasibur Rahman</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+    <!--WOW-->
+    <link rel="stylesheet" href="css/animate.css">
+
+
     <link
-      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-      rel="stylesheet"
-    />
+        href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <!-- fonts -->
 
-    <!--// STYLESHEETS //-->
-    <link rel="stylesheet" href="css/mixed.css" />
-    <!--// THEME MAIN JS //-->
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 
-  <body data-spy="scroll" data-target="#fixedNavbar">
-    <!--// Page Wrapper Start //-->
-    <div class="page-wrapper">
-      <!--// Header Start //-->
-      <header class="header fixed-top">
-        <div class="container">
-          <nav class="navbar navbar-expand-lg p-0">
-            <a class="navbar-brand" href="/"> <b>HR</b> </a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#fixedNavbar"
-              aria-controls="fixedNavbar"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="togler-icon-inner">
-                <span class="line-1"></span>
-                <span class="line-2"></span>
-                <span class="line-3"></span>
-              </span>
-            </button>
-            <div
-              class="collapse navbar-collapse main-menu justify-content-end"
-              id="fixedNavbar"
-            >
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link menu-link" href="#" data-scroll-nav="1"
-                    >Home</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link menu-link" href="#" data-scroll-nav="2"
-                    >About</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link menu-link" href="#" data-scroll-nav="3"
-                    >Skills</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link menu-link" href="#" data-scroll-nav="4"
-                    >Portfolio</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link menu-link" href="#" data-scroll-nav="6"
-                    >Blog</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link menu-link" href="#" data-scroll-nav="7"
-                    >Contact</a
-                  >
-                </li>
-              </ul>
+</head>
+
+<body>
+
+    <!-- =================================== -->
+    <!-- navbar -->
+
+    <div style="z-index: 5; position: absolute;">
+        <nav class="navbar navbar-expand-lg navbar-light cnavbar navdiv">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">HR</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="project.html">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="interest.html">Interests</a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav d-flex">
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+
+                    </ul>
+
+                </div>
             </div>
-          </nav>
-        </div>
-      </header>
-      <!--// Header End //-->
-
-      <!--// Main Start //-->
-      <main class="site-main" id="mainWrapper">
-        <!--// Hero Section Start //-->
-        <section
-          class="hero-section bg-jarallax-overlay hero-ripless-banner flex-box-center"
-          style="background-image: url('img/bg/bg01.jpg')"
-          data-scroll-index="1"
-        >
-          <div class="container">
-            <div class="row hero-row align-items-center">
-              <div class="col-lg-7 col-xl-6">
-                <div
-                  class="hero-section-inner wow fadeInUp"
-                  data-wow-delay="0.1s"
-                >
-                  <h1 class="hero-title">
-                    I'm <br /><span id="typed-text"></span>
-                  </h1>
-                  <p class="hero-text">
-                    I always try to be better than the one that I was yesterday
-                    as a HUMAN and as an Engineer.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!--// .row //-->
-          </div>
-          <!--// .container //-->
-          <a href="#" data-scroll-nav="2" class="down-scroll wow zoomIn">
-            <i class="fa fa-arrow-down"></i>
-          </a>
-        </section>
-        <!--// Hero Section End //-->
-
-        <!--// About Me Start //-->
-        <section class="about section" data-scroll-index="2">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12 col-lg-6">
-                <div class="about-image-pattern text-center">
-                  <img
-                    src="img/bg/propic.jpg"
-                    alt="About Image"
-                    class="img-fluid round-item"
-                  />
-                </div>
-              </div>
-              <div class="col-md-12 col-lg-6">
-                <div class="about-inner">
-                  <h4 class="about-title">
-                    Hello, My Name Is <b>Hasibur Rahman</b><br />
-                  </h4>
-                  <p class="about-text">
-                    I am a Software Engineer, currently working for WALTON
-                    (Walton Hi-Tech Industries PLC.), one of the top
-                    Bangladeshi-based manufacturing and distributing company on
-                    electrical and electronic products. I have great passion for
-                    web technologies. I love to explore new technologies and try
-                    to implement what I am thinking. Solving problems always
-                    interested me whether it is personal or professional.
-                  </p>
-                  <a href="https://my.indeed.com/p/hasiburr-m8zzqtw" target="_blank" class="default-button">RESUME</a>
-                </div>
-              </div>
-            </div>
-            <!--// .row //-->
-          </div>
-          <!--// .container //-->
-        </section>
-        <!--// About Me End //-->
-
-        <!--// Experience Start //-->
-        <section class="experience section">
-          <div class="container">
-
-            <!--// .row //-->
-            <div class="row align-items-center justify-content-center">
-              <div class="col-lg-8 col-xl-7">
-                <div class="section-heading">
-                  <h4 class="section-title">
-                    <span>Experience</span>
-                  </h4>
-                </div>
-              </div>
-            </div>
-
-            <div class="resume-tab-content-wrap">
-              <div class="resume-tab-content">
-                <div class="row justify-content-between">
-                  <div class="col-md-6 experience-item">
-                    <div class="experience-item-inner">
-                      <div class="experience-item-header">
-                        <i class="fas fa-briefcase"></i>
-                      </div>
-                      <div class="experience-item-body">
-                        <h5>Software Engineer</h5>
-                        <span class="experience-date">2022 / Current</span>
-                        <p>
-                          Walton Hi-Tech Industries PLC.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 experience-item">
-                    <div class="experience-item-inner">
-                      <div class="experience-item-header">
-                        <!-- <i class="fab fa-dribbble dribbble-icon"></i> -->
-                        <i class="fas fa-briefcase"></i>
-                      </div>
-                      <div class="experience-item-body">
-                        <h5>Software Engineer Apprenticeship</h5>
-                        <span class="experience-date">2022 / 2022</span>
-                        <p>
-                          Walton Hi-Tech Industries PLC.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!--// .row //-->
-
-                <!--// .row //-->
-                <div class="row align-items-center justify-content-center">
-                  <div class="col-lg-8 col-xl-7">
-                    <div class="section-heading">
-                      <h4 class="section-title">
-                        <span>Education</span>
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="resume-tab-content-wrap">
-                  <div class="resume-tab-content">
-                    <div class="row justify-content-between">
-                      <div class="col-md-6 experience-item">
-                        <div class="experience-item-inner">
-                          <div class="experience-item-header">
-                            <i class="fas fa-school"></i>
-                          </div>
-                          <div class="experience-item-body">
-                            <h5>Bachelor of Science</h5>
-                            <span class="experience-date">2018 / 2021</span>
-                            <p>
-                              <b>Department : </b>  Computer Science and Engineering
-                              <br>
-                              <b>Institute : </b>  Daffodil International University
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-6 experience-item">
-                        <div class="experience-item-inner">
-                          <div class="experience-item-header">
-                            <!-- <i class="fab fa-dribbble dribbble-icon"></i> -->
-                            <i class="fas fa-school"></i>
-                          </div>
-                          <div class="experience-item-body">
-                            <h5>Higher Secondary Certificate</h5>
-                            <span class="experience-date">2017</span>
-                            <p>
-                              <b>Group : </b>  Science
-                              <br>
-                              <b>Institute : </b>  M.E.H. Arif College
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <!--// .row //-->
-
-              </div>
-            </div>
-          </div>
-          <!--// .container //-->
-        </section>
-        <!--// Experience End //-->
-
-        <!--// Skills Start //-->
-        <section class="section skills-section" data-scroll-index="3">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8 col-xl-7">
-                <div class="section-heading">
-                  <h2 class="section-title">My<span>Skills</span></h2>
-                  <p class="section-sub-title">
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-12 col-lg-6" data-wow-delay="0.5s">
-                <div class="skills-inner">
-
-                  <h5 class="skills-title">
-                   <b>Programming</b> Technologies
-                  </h5>
-                  <p class="skills-text">
-                  </p>
-
-                  <div class="skills-progress-wrap">
-
-                    <div class="skills-item clearfix">
-                      <div class="skills-item-text">
-                        <h6>C/C++<span class="skill-percent"></span></h6>
-                      </div>
-                      <div class="skills-progress-bar">
-                        <div
-                          class="skills-progress-value slideInLeft wow"
-                          data-percent="80"
-                          data-wow-delay="0.5s"
-                        ></div>
-                      </div>
-                    </div>
-
-                    <div class="skills-item clearfix">
-                      <div class="skills-item-text">
-                        <h6>PHP<span class="skill-percent"></span></h6>
-                      </div>
-                      <div class="skills-progress-bar">
-                        <div
-                          class="skills-progress-value slideInLeft wow"
-                          data-percent="90"
-                          data-wow-delay="0.5s"
-                        ></div>
-                      </div>
-                    </div>
-
-                    <div class="skills-item clearfix">
-                      <div class="skills-item-text">
-                        <h6>Python<span class="skill-percent"></span></h6>
-                      </div>
-                      <div class="skills-progress-bar">
-                        <div
-                          class="skills-progress-value slideInLeft wow"
-                          data-percent="75"
-                          data-wow-delay="0.5s"
-                        ></div>
-                      </div>
-                    </div>
-                  </div>
-
-
-                  <h5 class="skills-title">
-                    <b>Web</b> Programming Technologies
-                   </h5>
-                   <p class="skills-text">
-                   </p>
- 
-                   <div class="skills-progress-wrap">
- 
-                     <div class="skills-item clearfix">
-                       <div class="skills-item-text">
-                         <h6>HTML<span class="skill-percent">90</span></h6>
-                       </div>
-                       <div class="skills-progress-bar">
-                         <div
-                           class="skills-progress-value slideInLeft wow"
-                           data-percent="90"
-                           data-wow-delay="0.5s"
-                         ></div>
-                       </div>
-                     </div>
- 
-                     <div class="skills-item clearfix">
-                       <div class="skills-item-text">
-                         <h6>CSS<span class="skill-percent">90</span></h6>
-                       </div>
-                       <div class="skills-progress-bar">
-                         <div
-                           class="skills-progress-value slideInLeft wow"
-                           data-percent="90"
-                           data-wow-delay="0.5s"
-                         ></div>
-                       </div>
-                     </div>
- 
-                     <div class="skills-item clearfix">
-                       <div class="skills-item-text">
-                         <h6>JavaScript<span class="skill-percent">90</span></h6>
-                       </div>
-                       <div class="skills-progress-bar">
-                         <div
-                           class="skills-progress-value slideInLeft wow"
-                           data-percent="90"
-                           data-wow-delay="0.5s"
-                         ></div>
-                       </div>
-                     </div>
-                   </div>
-
-                </div>
-              </div>
-              <!-- // DIVIDER -->
-              <div class="col-md-12 col-lg-6" data-wow-delay="0.3s">
-                
-                <div class="skills-inner">
-                  
-                  <h5 class="skills-title">
-                    Web <b>Framework</b> & Library
-                  </h5>
-                  <p class="skills-text">
-                  </p>
-
-                  <div class="skills-progress-wrap">
-
-                    <div class="skills-item clearfix">
-                      <div class="skills-item-text">
-                        <h6>Bootstrap<span class="skill-percent">85</span></h6>
-                      </div>
-                      <div class="skills-progress-bar">
-                        <div
-                          class="skills-progress-value slideInLeft wow"
-                          data-percent="85"
-                          data-wow-delay="0.5s"
-                        ></div>
-                      </div>
-                    </div>
-
-                    <div class="skills-item clearfix">
-                      <div class="skills-item-text">
-                        <h6>Laravel<span class="skill-percent">90</span></h6>
-                      </div>
-                      <div class="skills-progress-bar">
-                        <div
-                          class="skills-progress-value slideInLeft wow"
-                          data-percent="90"
-                          data-wow-delay="0.5s"
-                        ></div>
-                      </div>
-                    </div>
-
-                    <div class="skills-item clearfix">
-                      <div class="skills-item-text">
-                        <h6>React<span class="skill-percent">75</span></h6>
-                      </div>
-                      <div class="skills-progress-bar">
-                        <div
-                          class="skills-progress-value slideInLeft wow"
-                          data-percent="75"
-                          data-wow-delay="0.5s"
-                        ></div>
-                      </div>
-                    </div>
-
-                    <div class="skills-item clearfix">
-                      <div class="skills-item-text">
-                        <h6>Vue<span class="skill-percent">75</span></h6>
-                      </div>
-                      <div class="skills-progress-bar">
-                        <div
-                          class="skills-progress-value slideInLeft wow"
-                          data-percent="75"
-                          data-wow-delay="0.5s"
-                        ></div>
-                      </div>
-                    </div>
-
-                    </div>
-                  </div>
-
-                  <h5 class="skills-title">
-                    <b> Database </b> Management
-                  </h5>
-                  <p class="skills-text">
-                  </p>
-
-                  <div class="skills-progress-wrap">
-
-                    <div class="skills-item clearfix">
-                      <div class="skills-item-text">
-                        <h6>MySQL<span class="skill-percent">95</span></h6>
-                      </div>
-                      <div class="skills-progress-bar">
-                        <div
-                          class="skills-progress-value slideInLeft wow"
-                          data-percent="95"
-                          data-wow-delay="0.5s"
-                        ></div>
-                      </div>
-                    </div>
-
-                    <div class="skills-item clearfix">
-                      <div class="skills-item-text">
-                        <h6>Firebase<span class="skill-percent">65</span></h6>
-                      </div>
-                      <div class="skills-progress-bar">
-                        <div
-                          class="skills-progress-value slideInLeft wow"
-                          data-percent="65"
-                          data-wow-delay="0.5s"
-                        ></div>
-                      </div>
-                    </div>
-
-                    </div>
-                  </div>
-
-
-                </div>
-              </div>
-            </div>
-            <!--// .row //-->
-
-            <div class="col-md-12 col-lg-12" data-wow-delay="0.3s">
-              <div class="skills-inner container">
-                  
-                <h5 class="skills-title text-center">
-                  My <b>Achivements</b> & <b>Activities</b>
-                </h5>
-                <p class="skills-text">
-                </p>
-
-                    <section class=" testimonials">
-                      <div class="container">
-                        <!--// .row //-->
-                        <div class="testimonials-carousel owl-carousel owl-theme">
-                          <div class="item">
-                            <div class="testimonial-item">
-                              <div class="testimonial-item-body">
-                                <div class="testimonial-details">
-                                  <h5>Participated</h5>
-                                  <span>Rank #28</span>
-                                </div>
-                                <blockquote class="testimonial-text">
-                                  <q>
-                                    DIU Takeoff Programming Contest Spring 2018 (PC)
-                                  </q>
-                                </blockquote>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="item">
-                            <div class="testimonial-item">
-                              <div class="testimonial-item-body">
-                                <div class="testimonial-details">
-                                  <h5>Participated</h5>
-                                  <span>Rank #22</span>
-                                </div>
-                                <blockquote class="testimonial-text">
-                                  <q>
-                                    DIU Takeoff Programming Contest Summer 2018 (PC)
-                                  </q>
-                                </blockquote>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="item">
-                            <div class="testimonial-item">
-                              <div class="testimonial-item-body">
-                                <div class="testimonial-details">
-                                  <h5>Participated</h5>
-                                  <span>Rank #32</span>
-                                </div>
-                                <blockquote class="testimonial-text">
-                                  <q>
-                                    DIU Intra University Programming Contest 2019
-                                  </q>
-                                </blockquote>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="item">
-                            <div class="testimonial-item">
-                              <div class="testimonial-item-body">
-                                <div class="testimonial-details">
-                                  <h5>Participated</h5>
-                                  <span></span>
-                                </div>
-                                <blockquote class="testimonial-text">
-                                  <q>
-                                    ICPC Asia Dhaka Regional Contest - preliminary round in 2019
-                                    Team: DIU_bugsQUAD
-                                  </q>
-                                </blockquote>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="item">
-                            <div class="testimonial-item">
-                              <div class="testimonial-item-body">
-                                <div class="testimonial-details">
-                                  <h5>Participated</h5>
-                                  <span></span>
-                                </div>
-                                <blockquote class="testimonial-text">
-                                  <q>
-                                    ICPC Asia Dhaka Regional Contest - preliminary round in 2020
-                                    Team: DIU_bugsQUAD
-                                  </q>
-                                </blockquote>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <!--// .container //-->
-                    </section>
-                    <!--// Testimonials End //-->
-
-
-              </div>
-            </div>
-
-
-          </div>
-          <!--// .container //-->
-        </section>
-        <!--// Skills End //-->
-
-        <!--// Portfolio Start //-->
-        <section
-          class="section portfolio-section pb-minus-70"
-          data-scroll-index="4"
-        >
-          <div class="container">
-            <div class="row align-items-center justify-content-center">
-              <div class="col-md-7">
-                <div class="section-heading">
-                  <h2 class="section-title">My<span>Works</span></h2>
-                  <p class="section-sub-title">
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!--// .row //-->
-            <div class="portfolio-filter-wrap">
-              <div
-                class="portfolio-filter d-flex align-items-center justify-content-center"
-              >
-                <a href="#0" data-gallery-filter="*" class="current">All</a>
-                <a href="#0" data-gallery-filter=".php">PHP</a>
-                <a href="#0" data-gallery-filter=".js">JS</a>
-                <a href="#0" data-gallery-filter=".others">Others</a>
-              </div>
-            </div>
-            <!--// .row //-->
-            <div class="portfolio-gallery portfolio-grid row">
-
-
-              <div class="col-md-6 col-lg-4 glry-item col-sm-12 js">
-                <div class="portfolio-inner">
-                  <div class="portfolio-back">
-                    <div class="portfolio-buttons">
-                      <a
-                        href="img/portfolio/Word-Filter.jpg"
-                        class="portfolio-zoom-link"
-                      >
-                        <i class="fas fa-search"></i>
-                      </a>
-                      <a
-                        href="https://github.com/HRahman1777/Word-Filter.git"
-                        class="portfolio-details-link"
-                        target="_blank"
-                      >
-                        <i class="fas fa-arrow-right"></i>
-                      </a>
-                    </div>
-                  </div>
-                  <img
-                    src="img/portfolio/Word-Filter.jpg"
-                    alt="Portfolio Img"
-                    class="img-fluid portfolio-img"
-                  />
-                  <h6 class="project-title">Word-Filter <br> [Node.js]</h6>
-                </div>
-              </div>
-
-              <div class="col-md-6 col-lg-4 glry-item col-sm-12 php">
-                <div class="portfolio-inner">
-                  <div class="portfolio-back">
-                    <div class="portfolio-buttons">
-                      <a
-                        href="img/portfolio/miss.jpg"
-                        class="portfolio-zoom-link"
-                      >
-                        <i class="fas fa-search"></i>
-                      </a>
-                      <a
-                        href="https://github.com/HRahman1777/Footsteps.git"
-                        class="portfolio-details-link"
-                        target="_blank"
-                      >
-                        <i class="fas fa-arrow-right"></i>
-                      </a>
-                    </div>
-                  </div>
-                  <img
-                    src="img/portfolio/miss.jpg"
-                    alt="Portfolio Img"
-                    class="img-fluid portfolio-img"
-                  />
-                  <h6 class="project-title">Footsteps <br> [php, laravel, mysql]</h6>
-                </div>
-              </div>
-              
-            </div>
-            <!--// .row //-->
-          </div>
-          <!--// .container //-->
-        </section>
-        <!--// Portfolio End //-->
-
-        <!--// Latest Blog Start //-->
-        <section class="section blog" data-scroll-index="6">
-          <div class="container">
-            <div class="row align-items-center justify-content-center">
-              <div class="col-lg-7">
-                <div class="section-heading">
-                  <h2 class="section-title">My<span>Blog</span></h2>
-                  <p class="section-sub-title">
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!--// .row //-->
-            <div class="row justify-content-center">
-              <div class="col-md-6 col-lg-4 latest-blog-resp">
-                <div class="blog-item">
-                  <div class="blog-img">
-                    <a href="blog.html">
-                      <img
-                        src="img/blog/blog-600x400.jpg"
-                        alt="Blog image"
-                        class="img-fluid round-item"
-                      />
-                    </a>
-                  </div>
-                  <div class="blog-inner">
-                    <div class="blog-meta">
-                      <span class="mr-2"
-                        ><i class="fas fa-user"></i>By
-                        HasiburRahman</span
-                      >
-                      <span
-                        ><i class="fas fa-calendar"></i>April 14</span
-                      >
-                    </div>
-                    <h5 class="blog-title">
-                      <a href="blog.html"
-                        >Online Judge Accounts</a
-                      >
-                    </h5>
-                    <p class="blog-desc">
-                      My username information of programming communities.
-                      Beecrown, vJudge, Codeforces.....
-                    </p>
-                    <a href="blog.html" class="blog-more-link"
-                      >Read More <i class="fa fa-angle-right ml-2"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-4 latest-blog-resp">
-                <div class="blog-item">
-                  <div class="blog-img">
-                    <a href="blog.html">
-                      <img
-                        src="img/blog/blog2-600x400.jpg"
-                        alt="Blog image"
-                        class="img-fluid round-item"
-                      />
-                    </a>
-                  </div>
-                  <div class="blog-inner">
-                    <div class="blog-meta">
-                      <span class="mr-2"
-                        ><i class="fas fa-user"></i>By
-                        HasiburRahman</span
-                      >
-                      <span
-                        ><i class="fas fa-calendar"></i>January 14</span
-                      >
-                    </div>
-                    <h5 class="blog-title">
-                      <a href="https://www.flickr.com/photos/193085542@N07" target="_blank"
-                        >My Another Loving Word "Photography" </a
-                      >
-                    </h5>
-                    <p class="blog-desc">
-                      Though I am not a photographer 😉. But I love to do nature photography.
-                    </p>
-                    <a href="https://www.flickr.com/photos/193085542@N07" target="_blank" class="blog-more-link"
-                      >Read More <i class="fa fa-angle-right ml-2"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!--// .row //-->
-          </div>
-          <!--// .container //-->
-        </section>
-        <!--// Latest Blog End //-->
-
-<!-- <a data-flickr-embed="true" data-header="true" data-footer="true" href="https://www.flickr.com/photos/193085542@N07" title=""><img src="https://live.staticflickr.com/65535/51926242000_1f0004eb21.jpg" width="640" height="480" alt=""></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script> -->
-      
-
-        <!--// Contact Me Start //-->
-        <section class="contact section" data-scroll-index="7">
-          <div class="container">
-            <div class="row align-items-center justify-content-center">
-              <div class="col-lg-7">
-                <div class="section-heading">
-                  <h2 class="section-title">Contact<span>Me</span></h2>
-                  <p class="section-sub-title">
-                    I’m interested in learning, teaching and solving any brainstorming problems in my expertise. 
-                    If you have any questions, don't hesitate to use the form 😉 <br> OR 
-                    mail me <b>hasibur.cse7@gmail.com</b>.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!--// .row //-->
-            <div class="row justify-content-center">
-              <div class="col-md-10">
-                <form id="contactForm">
-                  <div class="empty-form text-center" style="display: none">
-                    <span>Please Fill Required Fields</span>
-                  </div>
-                  <div class="email-invalid text-center" style="display: none">
-                    <span>Email is invalid</span>
-                  </div>
-                  <div class="success-form text-center"></div>
-                  <div class="row">
-                    <div class="col-lg-6">
-                      <div class="form-group">
-                        <input
-                          type="text"
-                          class="form-input"
-                          name="contact_name"
-                          id="contactName"
-                          placeholder="Your Name *"
-                        />
-                        <span class=""><i class="fas fa-user"></i></span>
-                      </div>
-                    </div>
-                    <div class="col-lg-6">
-                      <div class="form-group">
-                        <input
-                          type="email"
-                          class="form-input"
-                          name="contact_email"
-                          id="contactEmail"
-                          placeholder="Your Email *"
-                        />
-                        <span class=""><i class="fas fa-envelope"></i></span>
-                      </div>
-                    </div>
-                    <div class="col-lg-12">
-                      <div class="form-group">
-                        <input
-                          type="text"
-                          class="form-input"
-                          name="contact_subject"
-                          id="contactSubject"
-                          placeholder="Subject *"
-                        />
-                        <span class=""><i class="fas fa-italic"></i></span>
-                      </div>
-                    </div>
-                    <div class="col-lg-12">
-                      <div class="form-group">
-                        <textarea
-                          name="contact_message"
-                          id="contactMessage"
-                          class="form-input"
-                          placeholder="Your Message *"
-                          cols="20"
-                          rows="5"
-                        ></textarea>
-                        <span class=""><i class="fas fa-comments"></i></span>
-                      </div>
-                    </div>
-                    <div class="col-lg-12 text-center">
-                      <div class="contact-btn-wrap">
-                        <button
-                          type="submit"
-                          id="contactBtn"
-                          class="default-button contact-btn"
-                        >
-                          Send Message
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                  <!--// .row //-->
-                </form>
-              </div>
-            </div>
-            <!--// .row //-->
-          </div>
-          <!--// .container //-->
-        </section>
-        <!--// Contact Me End //-->
-      </main>
-      <!--// Main Area End //-->
-
-      <!--// Footer Start //-->
-      <footer class="footer">
-        <div class="footer-top">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-md-12">
-                <div class="footer-widget-box text-center">
-                  I am available on almost every social media. You can message me or mail me, I will reply as soon as I can.
-                  <ul class="footer-social">
-                    <li>
-                      <a href="https://www.linkedin.com/in/hasibur1777/" target="_blank" class="footer-social-link">
-                        <i class="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://github.com/HRahman1777"  target="_blank" class="footer-social-link">
-                        <i class="fab fa-github"></i>
-                      </a>
-                    </li>
-                  </ul>
-                  <ul class="footer-social">
-                    <li>
-                      <a href="https://t.me/HRahman1777" target="_blank" class="footer-social-link">
-                        <i class="fab fa-telegram"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.facebook.com/hr5h4nt0/" target="_blank" class="footer-social-link">
-                        <i class="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://twitter.com/HRahman2015" target="_blank" class="footer-social-link">
-                        <i class="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <!--// .row //-->
-          </div>
-          <!--// .container //-->
-        </div>
-        <!--// .footer-top //-->
-        <div class="copyright">
-          <div class="container">
-            <p class="copyright-text">
-              HasiburRahman © <span id="fullYearCopyright"></span>
-            </p>
-          </div>
-          <!--// .container //-->
-        </div>
-        <!--// .copyright //-->
-      </footer>
-      <!--// Footer End //-->
-
-      <a href="#" class="scroll-top-btn" data-scroll-goto="1">
-        <span class="fa fa-arrow-up"></span>
-      </a>
-      <!--// Back To Top //-->
-
-      <div class="preloader-wrap">
-        <div class="preloader-inner">
-          <div id="loader"></div>
-        </div>
-      </div>
-      <!--// Preloader  //-->
+        </nav>
     </div>
-    <!--// Page Wrapper End -->
 
-    <!--// Scripts //-->
-    <script src="js/jquery.js"></script>
-    <script src="js/typed.js"></script>
-    <script src="js/plugins.js"></script>
-    <!--// Theme Main Js // -->
-    <script src="js/main.js"></script>
 
-    <!--// Typed Text Js // -->
+    <!-- navbar -->
+    <!-- =================================== -->
+
+    <!-- =================================== -->
+    <!-- intro -->
+
+
+    <div class="fdiv1">
+        <div class="container wow animate__animated animate__backInDown">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5" style="margin-top: 0px">
+                <div class="col-10 col-sm-8 col-lg-6">
+                    <img src="img/propic.jpg" class="d-block mx-lg-auto img-fluid intro-pic border border-info border-3"
+                        alt=" Intro Pic" width="240" height="480" loading="lazy">
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="display-6 fw-bold lh-1 mb-3">Hello! Welcome to my site!</h1>
+                    <p class="lead">My name is Hasibur Rahman. Recently I have completed my B.Sc. in Computer Science
+                        and Engineering from Daffodil International University.</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <a type="button"
+                            href="https://my.indeed.com/p/hasiburr-m8zzqtw"
+                            class="btn btn-outline-info btn-lg px-4 me-md-2" target="_blank">Resume</a>
+                        <a type="button" href="contact.html" class="btn btn-outline-info btn-lg px-4">Contact</a>
+                    </div>
+                    <div class="mt-5">
+                        <a href="#objective" class="abtn-intro">#Self Words</a>
+                        <a href="#experience" class="abtn-intro">#Experience</a>
+                        <a href="#education" class="abtn-intro">#Education</a>
+                        <a href="#achivements" class="abtn-intro">#Achivements</a>
+                        <a href="#skills" class="abtn-intro">#Skills</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- intro -->
+    <!-- =================================== -->
+
+    <!-- =================================== -->
+    <!-- objective -->
+
+    <div class="fdiv p-3" id="objective">
+        <div class="container ">
+            <h3 class="fw-bold mb-1 mt-5 wow animate__animated animate__fadeInRight"># Self Words <span class="iconify"
+                    data-icon="ion:footsteps-outline" data-width="34"></span></h3>
+            <p class="lead p-3">From my highshool life, I am curious about Science and Technology
+                especially
+                Computer
+                Science,
+                that's why I choose to complete my Bachelor’s degree in CSE. There have many things to do for exploring
+                new
+                experiences. For me <b>solve problems and developing</b> is those things. Right now I am trying to
+                develop
+                my
+                skills and effort to learn relevant knowledge of <b>software development</b>.</p>
+        </div>
+        <div class="row wow animate__animated animate__fadeInLeft">
+
+            <div class="col-5">
+
+            </div>
+
+            <div class="col-md-4">
+                <div class="flip-card" style="height: 50px; width: 60%;">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front" style="background-color: rgb(1, 2, 2); border-radius: 5px;">
+                            <h3 class="mt-1" style="color: white;">LOOP</h3>
+                        </div>
+                        <div class="flip-card-back"
+                            style="color: rgb(231, 240, 243);background-color: rgba(0, 0, 0, 0.863); border-radius: 5px;">
+                            <h6 class="mt-2">LEARN, SOLVE, IMPLIMENT</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- objective -->
+    <!-- =================================== -->
+
+    <!-- =================================== -->
+    <!-- Experience -->
+
+    <div class="fdiv" id="experience">
+        <div class="container p-3">
+            <h3 class="fw-bold mb-1 mt-5"># Experience <span class="iconify" data-icon="ion:construct-outline"
+                    data-width="32"></span></h3>
+            <div class="row">
+
+
+                <div class="ecard shadow-lg wow animate__animated animate__slideInLeft">
+                    <h4>- Executive Member</h4>
+                    <h5>[Computer and Programming Club, Permanent Campus DIU]</h5>
+                    <h6>Jan 2019–Dec 2020</h6>
+                    <li>Practice the given problem-solving tasks</li>
+                    <li> Volunteer to organize club events.</li>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Experience -->
+    <!-- =================================== -->
+
+    <!-- =================================== -->
+    <!-- Education -->
+
+    <div class="" id="education">
+        <div class="container p-3 wow animate__animated animate__zoomInRight">
+            <h3 class="fw-bold mb-1 mt-5"># Education <span class="iconify" data-icon="ion:book-outline"
+                    data-width="32"></span></h3>
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front"
+                                style="background-color: rgb(97, 160, 160); border-radius: 10px;">
+                                <!--
+                                <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+                                -->
+                                <h3 class="mt-5" style="color: white;">Bachelor of Science (BSc)</h3>
+                            </div>
+                            <div class="flip-card-back" style="border-radius: 10px;">
+                                <h5 class="mt-4">Computer Science and Engineering</h5>
+                                <p> [Daffodil InternationalUniversity | Ashulia, Dhaka ]</p>
+                                <p>(2018-2021)</p>
+                                <h6>CGPA: 3.68 <i>(out of 4.00)</i></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front"
+                                style="background-color: rgb(97, 160, 160); border-radius: 10px;">
+                                <!--
+                                <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+                                -->
+                                <h3 class="mt-5" style="color: white;">Higher Secondary Certificate (HSC)</h3>
+                            </div>
+                            <div class="flip-card-back" style="border-radius: 10px;">
+                                <h5 class="mt-5">Science Group</h5>
+                                <p>[MEH Arif College | Konabari, Gazipur]</p>
+                                <p>(2017)</p>
+                                <p>GPA: 4.58 <i>(out of 5.00)</i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front"
+                                style="background-color: rgb(97, 160, 160); border-radius: 10px;">
+                                <!--
+                                <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+                                -->
+                                <h3 class="mt-5" style="color: white;">Secondary School Certificate (SSC)</h3>
+                            </div>
+                            <div class="flip-card-back" style="border-radius: 10px;">
+                                <h5 class="mt-5">Science Group</h5>
+                                <p>[Salna Nasiruddin Memorial High School, Salna, Gazipur]</p>
+                                <p>(2015)</p>
+                                <p>GPA: 5.00 <i>(out of 5.00)</i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- Education -->
+    <!-- =================================== -->
+
+
+    <!-- =================================== -->
+    <!-- Achivements -->
+
+    <div class="" id="achivements">
+        <div class="container p-3">
+            <h3 class="fw-bold mb-1 mt-5"># Achivements <span class="iconify" data-icon="ion:color-wand-outline"
+                    data-width="32"></span></span></h3>
+            <div class="achv-card shadow-lg wow animate__animated animate__bounceInRight">
+                <h5>- Participated at DIU Takeoff Programming Contest Spring 2018 (PC) – <a
+                        href="https://algo.codemarshal.org/contests/diu-takeoff-pc-spring18/standings#:~:text=Hasibur%20Rahman%5B%20181-15-1777%20%5D">rank
+                        #28</a></h5>
+                <h5>- Participated at DIU Takeoff Programming Contest Summer 2018 (PC) – <a
+                        href="https://algo.codemarshal.org/contests/diu-takeoff-pc-summer18/standings#:~:text=Hasibur%20Rahman%20%5B181-15-1777%2CCSE%5D">rank
+                        #22</a></h5>
+                <h5>- Participated at DIU Intra University Programming Contest 2019 – <a
+                        href="https://toph.co/c/diu-intra-2019/standings#:~:text=32-,Hasibur%20Rahman,-181-15-1777">rank
+                        #32</a></h5>
+                <h5>- Participated ICPC Asia Dhaka Regional Contest - preliminary round in 2019 – Team: <a
+                        href="https://icpc.global/ICPCID/BYF4QN97JQ7V"> DIU_bugsQUAD </a>
+                </h5>
+                <h5>- Participated ICPC Asia Dhaka Regional Contest - preliminary round in 2020 – Team: <a
+                        href="https://icpc.global/ICPCID/BYF4QN97JQ7V"> DIU_bugsQUAD </a>
+                </h5>
+            </div>
+        </div>
+    </div>
+
+    <!-- Achivements -->
+    <!-- =================================== -->
+
+
+    <!-- =================================== -->
+    <!-- Skills -->
+
+    <div class="" id="skills">
+        <div class="container p-3">
+            <h3 class="fw-bold mb-1 mt-5"># Skills <span class="iconify" data-icon="ion:code-slash"
+                    data-width="36"></span></h3>
+
+            <div class="row wow animate__animated animate__fadeInTopRight">
+                <div class="col-6">
+                    <ul>
+                        <li>
+                            <h5>Programming Technologies</h5>
+                        </li>
+                        <p>- C/C++, PHP, Java </p>
+                        <li>
+                            <h5>
+                                Web Programming Technologies
+                            </h5>
+                        </li>
+                        <p>- HTML, CSS, JavaScript, Bootstrap</p>
+
+                        <li>
+                            <h5>
+                                Web Framework
+                            </h5>
+                        </li>
+                        <p>- Laravel, Spring Boot(Basic)</p>
+
+                        <li>
+                            <h5>
+                                Mobile App Development
+                            </h5>
+                        </li>
+                        <p>- Android Studio (Java) – basic</p>
+                    </ul>
+                </div>
+                <div class="col-6">
+                    <ul>
+                        <li>
+                            <h5>
+                                Database Management
+                            </h5>
+                        </li>
+                        <p>- MySQL, ORM, Firebase-basic</p>
+
+
+                        <li>
+                            <h5>
+                                Version Control
+                            </h5>
+                        </li>
+                        <p>- Git, GitHub</p>
+
+                        <li>
+                            <h5>
+                                Operating Systems
+                            </h5>
+                        </li>
+                        <p>- Windows, Linux</p>
+
+                        <li>
+                            <h5>
+                                Communication
+                            </h5>
+                        </li>
+                        <p>- Bangla, English</p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <hr>
+    </div>
+
+    <!-- Skills -->
+    <!-- =================================== -->
+
+
+    <!-- =================================== -->
+    <!-- Footer -->
+    <footer class="footer text-center cnavbar p-1">
+        <div class="copyright small">
+            Copyright © <a href="https://github.com/HRahman1777" target="_blank">HRahman1777</a>
+            <br>
+            All rights reserved.
+        </div>
+    </footer>
+
+    <!-- Footer -->
+    <!-- =================================== -->
+
+    <!-- WOW -->
+    <script src="js/wow.js"></script>
     <script>
-      var options = {
-        strings:  ["A Programmer", "A Learner", "An Explorer"],
-        typeSpeed: 40,
-        backSpeed: 40,
-        loop: true,
-      };
-      var typed = new Typed("#typed-text", options);
+        new WOW().init();
     </script>
-  </body>
+
+    <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
 </html>
