@@ -1,0 +1,14 @@
+Color Plate
+Dark Green: #164A41
+Medium Green: #4D774E
+Light Green: #9DC88D
+Natural Yellow: #F1B24A
+White: #FFFFFF
+
+console errors fix..
+
+https://www.hackerrank.com/5h4nt0
+https://toph.co/u/HR_5h4nt0
+https://leetcode.com/hr5h4nt0/
+https://vjudge.net/user/HasiburRahman
+https://www.beecrowd.com.br/judge/en/profile/222115
